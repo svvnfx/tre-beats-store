@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { addBeat } from '@/lib/db';
-import { saveFile } from '@/lib/storage';
+import { addBeat } from './lib/db';
+import { saveFile } from './lib/storage';
 
 export const runtime = 'nodejs';
 

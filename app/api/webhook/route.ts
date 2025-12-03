@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import Stripe from 'stripe';
-import { issueDownloadLink } from '@/lib/tokens';
+import { issueDownloadLink } from './lib/tokens';
 import { Resend } from 'resend';
 
 export const runtime = 'nodejs';

@@ -1,6 +1,6 @@
 import Stripe from 'stripe';
 import { NextResponse } from 'next/server';
-import { getBeat } from '@/lib/db';
+import { getBeat } from './lib/db';
 
 export const runtime = 'nodejs';
 

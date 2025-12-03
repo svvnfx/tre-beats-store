@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { consumeToken, getBeat } from '@/lib/db';
+import { consumeToken, getBeat } from './lib/db';
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
